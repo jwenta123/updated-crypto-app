@@ -1,0 +1,14 @@
+.Title {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	z-index: 50;
+}
+
+img {
+	max-width: 500px;
+	margin: auto;
+}

@@ -1,0 +1,137 @@
+.ScrollingCoins {
+	display: flex;
+	height: 400px;
+	margin-bottom: 50px;
+	flex-wrap: nowrap;
+	z-index: 9999;
+}
+
+.ButtonDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 2vmin;
+}
+
+button {
+	width: 30vw;
+	font-size: 30px;
+	font-weight: bold;
+	color: steelblue;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	border: steelblue;
+	border-style: double;
+	border-width: 4px;
+	box-shadow: 13px 13px 47px 3px rgba(0, 0, 0, 0.38);
+}
+
+.Height {
+	height: 90vh;
+}
+
+/*iphone5se*/
+@media (min-width: 320px) and (min-height: 568px) {
+	.ScrollingCoins {
+		height: 470px;
+	}
+	button {
+		font-size: 20px;
+	}
+}
+/*galaxy s5*/
+@media (min-width: 360px) and (min-height: 640px) {
+	.ScrollingCoins {
+		height: 490px;
+	}
+	button {
+		font-size: 20px;
+	}
+}
+/*iphone678*/
+@media (min-width: 375px) and (min-height: 667px) {
+	.ScrollingCoins {
+		height: 67vh;
+	}
+	button {
+		font-size: 20px;
+	}
+}
+/*iphonex*/
+@media (min-width: 375px) and (min-height: 812px) {
+	.ScrollingCoins {
+		height: 60vh;
+	}
+	button {
+		font-size: 20px;
+	}
+}
+/*pixel2*/
+@media (min-width: 411px) and (min-height: 731px) {
+	.ScrollingCoins {
+		height: 63vh;
+	}
+	button {
+		font-size: 22px;
+	}
+}
+/*pixel2xl*/
+@media (min-width: 411px) and (min-height: 823px) {
+	.ScrollingCoins {
+		height: 60vh;
+	}
+	button {
+		font-size: 22px;
+	}
+}
+/*iphone678plus*/
+@media (min-width: 414px) and (min-height: 736px) {
+	.ScrollingCoins {
+		height: 63vh;
+	}
+	button {
+		font-size: 22px;
+	}
+}
+/*pc*/
+@media (min-width: 1440px) {
+	.ButtonDiv {
+		width: 1000px;
+		margin: auto;
+	}
+	.ScrollingCoins {
+		height: 400px;
+	}
+	button {
+		width: 288px;
+		height: 40px;
+	}
+}
+/*qhd phone*/
+@media (min-width: 1440px) and (min-height: 2560px) {
+	.ButtonDiv {
+		width: 1000px;
+		margin: auto;
+	}
+	button {
+		width: 288px;
+		height: 40px;
+	}
+	.ScrollingCoins {
+		height: 400px;
+	}
+}
+/*4k*/
+@media (min-width: 2560px) {
+	.ButtonDiv {
+		width: 1000px;
+		margin: auto;
+	}
+	button {
+		width: 288px;
+		height: 40px;
+	}
+	.ScrollingCoins {
+		height: 400px;
+	}
+}

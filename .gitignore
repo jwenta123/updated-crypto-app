@@ -1,0 +1,17 @@
+*.iml
+.bundle
+.DS_STORE
+.idea
+npm-debug.log
+node_modules
+output
+dist
+coverage
+*.swp
+.env
+*.log
+src/app.css
+build
+package-lock.json
+app.css
+.vscode/

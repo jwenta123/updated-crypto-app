@@ -1,0 +1,202 @@
+.Chart {
+	display: flex;
+	justify-content: space-around;
+	vertical-align: middle;
+	margin: auto;
+	width: 100%;
+	flex-direction: column-reverse;
+}
+
+.Buttons {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.Button {
+	font-size: 30px;
+	font-weight: bold;
+	color: steelblue;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 10px;
+	border: steelblue;
+	border-style: double;
+	border-width: 4px;
+	box-shadow: 13px 13px 47px 3px rgba(0, 0, 0, 0.38);
+	width: 250px;
+	height: 90px;
+}
+
+.columnOne {
+	margin: auto;
+	width: 300px;
+	height: 100%;
+}
+
+.columnTwo {
+	width: 82%;
+	align-items: flex-start;
+	margin-right: 2%;
+	height: 70vh;
+}
+
+/*iphone5se*/
+@media (min-width: 320px) and (min-height: 568px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*galaxy s5*/
+@media (min-width: 360px) and (min-height: 640px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*iphone678*/
+@media (min-width: 375px) and (min-height: 667px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*iphonex*/
+@media (min-width: 375px) and (min-height: 812px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*pixel2*/
+@media (min-width: 411px) and (min-height: 731px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*pixel2xl*/
+@media (min-width: 411px) and (min-height: 823px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*iphone678plus*/
+@media (min-width: 414px) and (min-height: 736px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 7vh;
+		width: 70vw;
+		margin-bottom: 2vh;
+		font-size: 24px;
+	}
+}
+/*ipad*/
+@media (min-width: 768px) and (min-height: 1024px) {
+	.Chart {
+		flex-direction: column-reverse;
+	}
+	.columnTwo {
+		height: 75vh;
+		width: 90vw;
+	}
+	.Button {
+		height: 6vh;
+		width: 50vw;
+		margin-top: 1vh;
+		margin-bottom: 1.5vh;
+		font-size: 30px;
+	}
+	.columnOne {
+		width: 100vw;
+	}
+}
+/*ipad pro*/
+@media (min-width: 1024px) and (min-height: 1366px) {
+	.Chart {
+		flex-direction: column;
+	}
+	.columnTwo {
+		height: 70vh;
+		width: 88vw;
+	}
+	.columnOne {
+		width: 100vw;
+	}
+	.Button {
+		height: 6vh;
+		width: 20vw;
+		margin-top: 1vh;
+		margin-bottom: 1.5vh;
+		font-size: 30px;
+	}
+	.Buttons {
+		flex-direction: row;
+		justify-content: space-evenly;
+		width: 100vw;
+	}
+}
